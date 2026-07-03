@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #include "parser.h"
 #include "print_func.h"
 #include "function.h"
@@ -37,6 +39,10 @@ int cliParser(int argc, char *argv[])
         else if(strcmp(argv[i], "-l") == 0)
         {
             getAllFiles();
+        }
+        else if(strcmp(argv[i], "-v") == 0)
+        {
+            printf("Version : %s", VERSION);
         }
         
     }

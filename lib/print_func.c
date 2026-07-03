@@ -5,9 +5,17 @@
 
 void printHelp()
 {
-    printf("==== Help & Documentation ====\n");
-    printf("1. Help : \t\t\t-h\n");
-    printf("2. Retrieve all Files : \t-l\n");
+    printf("=====================================\n");
+    printf("        File Organizer Help\n");
+    printf("=====================================\n");
+    printf("Usage:\n");
+    printf("    app.exe [option] [directory]\n\n");
+
+    printf("Options:\n");
+    printf("    -h              Show this help message\n");
+    printf("    -l              List all files in a directory\n");
+    printf("    -f              Organize files by extension\n");
+    printf("    -v              Show program version\n");
 }
 
 void printA(char text[])

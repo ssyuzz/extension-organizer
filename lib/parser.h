@@ -2,6 +2,7 @@
 
 #define CLI_H
 
+#define VERSION "1.0"
 int cliParser(int argc, char *argv[]);
 
 void getTime(char name[], long long int time);
