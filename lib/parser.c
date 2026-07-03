@@ -57,7 +57,7 @@ int getEx(char fileName[], char ex[])
     
     if(str == NULL)
         return 0;
-    printA(str);
+    
     
     if(strcmp(str, ex) == 0)
     {
